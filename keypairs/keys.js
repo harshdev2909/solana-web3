@@ -12,6 +12,7 @@ console.log("Private Key (Secret Key):", secretKey);
 // Convert the message "hello world" to a Uint8Array
 const message = new TextEncoder().encode("hello world");
 const signature = nacl.sign.detached(message, secretKey);
+console.log(signature)
 const result = nacl.sign.detached.verify(
     message,
     signature,
