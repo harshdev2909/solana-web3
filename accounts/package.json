@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0"
+  },
+  "name": "accounts",
+  "description": "On Solana, all data is contained in what we call \"accounts\". You can think of data on Solana as a public database with a single \"Accounts\" table, where each entry in this table is an individual account with the same base Account type.",
+  "version": "1.0.0",
+  "main": "account.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
